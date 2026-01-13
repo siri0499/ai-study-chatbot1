@@ -1,0 +1,14 @@
+print("AI Study Bot 🤖")
+
+while True:
+    q = input("You: ").lower()
+
+    if "physics" in q:
+        print("Bot: Physics is about matter, energy, and motion.")
+    elif "formula" in q:
+        print("Bot: Understanding formulas is more important than memorizing.")
+    elif "bye" in q:
+        print("Bot: Goodbye! Happy studying 💙")
+        break
+    else:
+        print("Bot: I am still learning. Ask me about studies.")
